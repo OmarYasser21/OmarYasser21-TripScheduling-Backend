@@ -1,7 +1,7 @@
 package com.example.tripscheduling.model;
-import lombok.;
+import lombok.*;
 
-import javax.persistence.;
+import javax.persistence.*;
 
 @Data
 @Entity
