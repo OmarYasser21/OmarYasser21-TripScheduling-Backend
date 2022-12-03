@@ -1,8 +1,8 @@
 package com.example.tripscheduling.model;
 
-import lombok.;
+import lombok.*;
 
-import javax.persistence.;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.Set;
 
