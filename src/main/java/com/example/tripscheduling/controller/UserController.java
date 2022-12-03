@@ -14,7 +14,7 @@ import static org.springframework.http.HttpStatus.CREATED;
 
 @RestController
 @RequestMapping("")
-@CrossOrigin( "")
+@CrossOrigin( "*")
 
 public class UserController {
     @Autowired
