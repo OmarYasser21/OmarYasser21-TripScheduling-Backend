@@ -14,7 +14,7 @@ import static org.springframework.http.HttpStatus.CREATED;
 
 @RestController
 @RequestMapping("/stations")
-@CrossOrigin( "*")
+@CrossOrigin( allowedHeaders="*",origins="*")
 
 public class StationController {
     @Autowired
