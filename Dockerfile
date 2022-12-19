@@ -1,4 +1,4 @@
-FROM ubi8-openjdk-11
+FROM openjdk:11
 
 COPY target/*.jar backend.jar
 
