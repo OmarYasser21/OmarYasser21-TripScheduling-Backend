@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/trips")
-@CrossOrigin("*")
+@CrossOrigin( allowedHeaders="*",origins="*")
 public class TripController {
     @Autowired
     private TripService tripService;
